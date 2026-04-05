@@ -1,0 +1,13 @@
+package com.Estudo_prova.EstudoProva;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class EstudoProvaApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(EstudoProvaApplication.class, args);
+	}
+
+}
