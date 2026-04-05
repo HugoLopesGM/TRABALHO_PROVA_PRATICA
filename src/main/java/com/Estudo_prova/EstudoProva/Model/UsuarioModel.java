@@ -1,10 +1,7 @@
 package com.Estudo_prova.EstudoProva.Model;
 
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
+import jakarta.persistence.*;
 import lombok.Data;
 
 @Entity
@@ -18,4 +15,7 @@ public class UsuarioModel {
     private String nome;
     private String email;
     private String senha;
+
+    @Enumerated(EnumType.STRING)
+    private UserRole role;
 }
